@@ -8,7 +8,7 @@
 	define('HIST_HEIGHT', 20);
 
 	$weekList = Array('Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne');
-	$monthList = Array(5=> 'Květen', 6=>'Červen', 7=> 'Červenec', 8=>'Srpen', 9=>'Září');
+	$monthList = Array(1=>'Leden', 2=> 'Únor', 3=> 'Březen', 4=> 'Duben', 5=> 'Květen', 6=>'Červen', 7=> 'Červenec', 8=>'Srpen', 9=>'Září', 10=>'Říjen', 11=>'Listopad', 12=>'Prosinec');
 
 	function pr($data){
 		echo "<pre>";
@@ -23,10 +23,10 @@
 	
 	}
 	
-	$GLOBALS['configuration']['db'] = "isotop";
+	$GLOBALS['configuration']['db'] = "test";
 	$GLOBALS['configuration']['host'] = "localhost";
-	$GLOBALS['configuration']['user'] = "isotop";
-	$GLOBALS['configuration']['pass'] = "isotop";
+	$GLOBALS['configuration']['user'] = "test";
+	$GLOBALS['configuration']['pass'] = "test";
 
 	include_once('objects/class.database.php');
 	include_once('objects/class.pog_base.php');

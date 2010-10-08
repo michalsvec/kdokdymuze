@@ -1,0 +1,8 @@
+Velmi velmi velmi jednoduchy skriptik na koordinaci hromadnych akci a jejich terminu.
+
+
+INSTALACE
+---------
+
+zalozeni objektu v databazi podle objektu ve slozce objects.
+nastavei konstant na zacatku souboru index.php
